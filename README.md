@@ -1,24 +1,28 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Boilerplate to use Ruby on Rails + Webpack + React + Material-ui
 
 
-Welcome to your Rails project on Cloud9 IDE!
+Webpack is keeping working together with sprokets
 
-To get started, just do the following:
+## To create bundle locally
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://rails-react-webpack-kefimov.c9users.io/).
+```npm run dev```
 
-Happy coding!
-The Cloud9 IDE team
+It's pointed to script
 
+```"dev": "webpack-dev-server --progress --colors --watch",```
+   
+## To deploy 
 
-## Support & Documentation
+```npm run deploy```
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+It's pointed to
+    
+```"deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",```
+
+## To create bundle in c9.io
+ 
+```npm run devcloud``` 
+
+It's pointed to
+ 
+```"devcloud": "webpack --config webpack.devcloud.config.js --progress --colors",```
