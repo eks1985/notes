@@ -27,12 +27,3 @@ export default class CustomAppBar extends Component {
   }
   
 }
-
-// ES 2015
-// CustomAppBar.propTypes = {
-//   qty: PropTypes.number.isRequired
-// }
-
-// CustomAppBar.defaultProps = {
-//   qty: 10  
-// }
