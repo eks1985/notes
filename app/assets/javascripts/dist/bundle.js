@@ -54,9 +54,11 @@
 	
 	window.React = __webpack_require__(24);
 	window.ReactDOM = __webpack_require__(162);
-	window.App = __webpack_require__(163);
+	window.ReactComponents = {};
+	window.ReactComponents.App = __webpack_require__(163);
 	
 	(0, _reactTapEventPlugin2.default)();
+	// var self, window, global = global || window || self;
 
 /***/ },
 /* 1 */

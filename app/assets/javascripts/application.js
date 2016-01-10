@@ -15,4 +15,3 @@
 //= require turbolinks
 //= require react_ujs
 //= require dist/bundle
-

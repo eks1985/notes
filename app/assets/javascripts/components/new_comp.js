@@ -3,7 +3,7 @@ import AppBar from 'material-ui/lib/app-bar';
 
 export default class CustomAppBar extends Component {
 
-  static propTypes = {
+  static propTypes = { 
     qty: PropTypes.number.isRequired
   };
 
