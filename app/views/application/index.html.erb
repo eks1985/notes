@@ -1,11 +1,12 @@
 <html>
   <head>
     <title>React Webpack template</title>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <% if Rails.env.development? %>
+      <script src="http://localhost:35729/livereload.js"></script>
+    <% end %>
   </head>
   <body>
     <!--<div id="root">If you see this then something is wrong.</div>-->
-    <!--<script src="browser-bundle.js"></script>-->
     <% if true %>
     <%= react_component('App', {someVal: @someVal}) %>
     <% end %>

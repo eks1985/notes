@@ -22,7 +22,7 @@ export default class CustomAppBar extends Component {
   render() {
     console.log(this.props);
     return (
-     <AppBar title="Bar title new 6" />
+     <AppBar title="Bar title new 8" />
     );
   }
 

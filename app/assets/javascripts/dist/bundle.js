@@ -24585,7 +24585,7 @@
 	    key: 'render',
 	    value: function render() {
 	      console.log(this.props);
-	      return _react2.default.createElement(_appBar2.default, { title: 'Bar title new 6' });
+	      return _react2.default.createElement(_appBar2.default, { title: 'Bar title new 8' });
 	    }
 	  }]);
 	
