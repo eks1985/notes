@@ -2,15 +2,15 @@ import React, { Component, PropTypes } from 'react';
 import AppBar from 'material-ui/lib/app-bar';
 
 export default class CustomAppBar extends Component {
-  
+
   static propTypes = {
-    qty: PropTypes.number.isRequired  
+    qty: PropTypes.number.isRequired
   };
-  
+
   static defaultProps = {
     qty: 10
   };
-  
+
   constructor(props) {
     super(props);
     this.state = {
@@ -18,12 +18,13 @@ export default class CustomAppBar extends Component {
       amount: 0
     };
   }
-    
+
   render() {
     console.log(this.props);
     return (
-     <AppBar title="Bar title" />
+     <AppBar title="Bar title new 6" />
     );
   }
-  
+
+
 }
