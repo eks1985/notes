@@ -1,4 +1,4 @@
-import React from 'react';
+var React from 'react';
 import Paper from 'material-ui/lib/paper';
 import NewComp from './new_comp';
 import CustomIcon from './custom_icon';

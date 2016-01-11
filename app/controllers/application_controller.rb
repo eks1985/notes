@@ -4,8 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def index
-    @someVal = "123";
-  #   render component: 'App', props: { someVal: someVal }, tag: 'div', class: 'my'
+   
   end
   
 end
