@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'material-ui-icons';
-    src:font-url('fonts/material-ui-icons.eot?smeyd2');
-    src:font-url('fonts/material-ui-icons.eot?smeyd2#iefix') format('embedded-opentype'),
-    font-url('fonts/material-ui-icons.ttf?smeyd2') format('truetype'),
-    font-url('fonts/material-ui-icons.woff?smeyd2') format('woff'),
-    font-url('fonts/material-ui-icons.svg?smeyd2#material-ui-icons') format('svg');
+    src:url('fonts/material-ui-icons.eot?smeyd2');
+    src:url('fonts/material-ui-icons.eot?smeyd2#iefix') format('embedded-opentype'),
+    url('fonts/material-ui-icons.ttf?smeyd2') format('truetype'),
+    url('fonts/material-ui-icons.woff?smeyd2') format('woff'),
+    url('fonts/material-ui-icons.svg?smeyd2#material-ui-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
