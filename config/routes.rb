@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'application#index'
+  resources :topics
+  get 'contents' => 'contents#index' #to response for Refresh button
+  get 'save_contents' => 'contents#save_contents'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

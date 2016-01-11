@@ -1,0 +1,308 @@
+@font-face{ 
+	font-family: 'roboto-condensed';
+	url('fonts/roboto-condensed.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'roboto-bold-condensed-italic';
+	url('fonts/roboto-bold-condensed-italic.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'roboto-bold-condensed';
+	url('fonts/roboto-bold-condensed.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'roboto-condensed-italic';
+	url('fonts/roboto-condensed-italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'material-ui-icons';
+    src:url('fonts/material-ui-icons.eot?smeyd2');
+    src:url('fonts/material-ui-icons.eot?smeyd2#iefix') format('embedded-opentype'),
+    url('fonts/material-ui-icons.ttf?smeyd2') format('truetype'),
+    url('fonts/material-ui-icons.woff?smeyd2') format('woff'),
+    url('fonts/material-ui-icons.svg?smeyd2#material-ui-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="mui-icon-"], [class*=" mui-icon-"] {
+    font-family: 'material-ui-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mui-icon-help_outline:before {
+    content: "\e916";
+}
+.mui-icon-help:before {
+    content: "\e917";
+}
+.mui-icon-uniF131:before {
+    content: "\f131";
+}
+.mui-icon-uniF136:before {
+    content: "\f136";
+}
+.mui-icon-uniF158:before {
+    content: "\f158";
+}
+.mui-icon-uniF160:before {
+    content: "\f160";
+}
+.mui-icon-uniF16B:before {
+    content: "\f16b";
+}
+.mui-icon-uniF19B:before {
+    content: "\f19b";
+}
+.mui-icon-uniF19C:before {
+    content: "\f19c";
+}
+.mui-icon-uniF1A3:before {
+    content: "\f1a3";
+}
+.mui-icon-uniF1A9:before {
+    content: "\f1a9";
+}
+.mui-icon-uniF1C3:before {
+    content: "\f1c3";
+}
+.mui-icon-uniF1C6:before {
+    content: "\f1c6";
+}
+.mui-icon-uniF1EA:before {
+    content: "\f1ea";
+}
+.mui-icon-uniF1EB:before {
+    content: "\f1eb";
+}
+.mui-icon-uniF1ED:before {
+    content: "\f1ed";
+}
+.mui-icon-uniF1F7:before {
+    content: "\f1f7";
+}
+.mui-icon-uniF206:before {
+    content: "\f206";
+}
+.mui-icon-uniF207:before {
+    content: "\f207";
+}
+.mui-icon-uniF209:before {
+    content: "\f209";
+}
+.mui-icon-uniF20C:before {
+    content: "\f20c";
+}
+.mui-icon-uniF20D:before {
+    content: "\f20d";
+}
+.mui-icon-uniF212:before {
+    content: "\f212";
+}
+.mui-icon-uniF215:before {
+    content: "\f215";
+}
+.mui-icon-uniF220:before {
+    content: "\f220";
+}
+.mui-icon-uniF237:before {
+    content: "\f237";
+}
+.mui-icon-uniF250:before {
+    content: "\f250";
+}
+.mui-icon-uniF253:before {
+    content: "\f253";
+}
+.mui-icon-uniF258:before {
+    content: "\f258";
+}
+.mui-icon-uniF261:before {
+    content: "\f261";
+}
+.mui-icon-uniF263:before {
+    content: "\f263";
+}
+.mui-icon-uniF26B:before {
+    content: "\f26b";
+}
+.mui-icon-uniF278:before {
+    content: "\f278";
+}
+.mui-icon-uniF2A7:before {
+    content: "\f2a7";
+}
+.mui-icon-uniF2F0:before {
+    content: "\f2f0";
+}
+.mui-icon-uniF2F2:before {
+    content: "\f2f2";
+}
+.mui-icon-uniF2F6:before {
+    content: "\f2f6";
+}
+.mui-icon-uniF2F9:before {
+    content: "\f2f9";
+}
+.mui-icon-uniF2FA:before {
+    content: "\f2fa";
+}
+.mui-icon-uniF2FB:before {
+    content: "\f2fb";
+}
+.mui-icon-uniF2FC:before {
+    content: "\f2fc";
+}
+.mui-icon-uniF2FD:before {
+    content: "\f2fd";
+}
+.mui-icon-uniF31E:before {
+    content: "\f31e";
+}
+.mui-icon-trash:before {
+    content: "\e900";
+}
+.mui-icon-circle-right:before {
+    content: "\e901";
+}
+.mui-icon-tick:before {
+    content: "\e801";
+}
+.mui-icon-equals:before {
+    content: "\e802";
+}
+.mui-icon-divide:before {
+    content: "\e803";
+}
+.mui-icon-chevron-right:before {
+    content: "\e804";
+}
+.mui-icon-uniF108:before {
+    content: "\f108";
+}
+.mui-icon-magic-wand:before {
+    content: "\e800";
+}
+.mui-icon-spinner11:before {
+    content: "\e905";
+}
+.mui-icon-enlarge2:before {
+    content: "\e906";
+}
+.mui-icon-shrink2:before {
+    content: "\e907";
+}
+.mui-icon-cog:before {
+    content: "\e908";
+}
+.mui-icon-pie-chart:before {
+    content: "\e909";
+}
+.mui-icon-stats-dots:before {
+    content: "\e90a";
+}
+.mui-icon-clipboard:before {
+    content: "\e90b";
+}
+.mui-icon-tree:before {
+    content: "\e90c";
+}
+.mui-icon-menu:before {
+    content: "\e90d";
+}
+.mui-icon-link:before {
+    content: "\e90e";
+}
+.mui-icon-cross:before {
+    content: "\e90f";
+}
+.mui-icon-checkmark:before {
+    content: "\e904";
+}
+.mui-icon-checkmark2:before {
+    content: "\e910";
+}
+.mui-icon-loop2:before {
+    content: "\e911";
+}
+.mui-icon-arrow-right2:before {
+    content: "\e902";
+}
+.mui-icon-arrow-down2:before {
+    content: "\e903";
+}
+.mui-icon-sort-alpha-asc:before {
+    content: "\e912";
+}
+.mui-icon-sort-alpha-desc:before {
+    content: "\e913";
+}
+.mui-icon-table:before {
+    content: "\e914";
+}
+.mui-icon-table2:before {
+    content: "\e915";
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'),
+    url('material.woff2') format('woff2'),
+    url('MaterialIcons-Regular.woff') format('woff');
+}
+
+
+.example {
+    padding: 100px;
+}
+
+.example-enter {
+    opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left-nav-item {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.editor {
+  min-height: 600px;
+  width: 800px
+}
+
+/** {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+}*/

@@ -6,6 +6,7 @@
     <% end %>
   </head>
   <body>
-    <%= react_component('ReactComponents.App') %>
+    <%= @notebook_struct %>
+    <%= react_component('ReactComponents.App', {notebook_struct: @notebook_struct}) %>
   </body>
 </html>

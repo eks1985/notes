@@ -1,5 +1,6 @@
 var WriteFilePlugin = require('write-file-webpack-plugin');
 var LiveReloadPlugin = require('webpack-livereload-plugin');
+var BabelPluginAddModuleExports = require('babel-plugin-add-module-exports');
 module.exports = {
   entry: './app/assets/javascripts/components',
   output: {
@@ -11,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new WriteFilePlugin(),
-    new LiveReloadPlugin()
+    new LiveReloadPlugin(),
   ],
   devtool: 'source-map',
   module: {
