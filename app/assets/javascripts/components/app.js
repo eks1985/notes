@@ -1,20 +1,52 @@
 import React from 'react';
 import Paper from 'material-ui/lib/paper';
-import NewComp from './new_comp';
-import CustomIcon from './custom_icon';
+import AppBar from 'material-ui/lib/app-bar'
+import Tabs from 'material-ui/lib/tabs/tabs';
+import Tab from 'material-ui/lib/tabs/tab';
+import NotebookSelect from './notes2/notebook-select';
 
 import Main from './notes/main';
 
-var PropTypes = React.PropTypes;
-
-var App = React.createClass({
-  render: function() {
+class App extends React.Components {
+  
+  constructor(props) {
+    super(props);
+  }
+  
+  // handleActiveA = () => {
+  //   alert("A");
+  // };
+  
+  render() {
+    var styles = {
+      appBar: {
+        flexWrap: 'wrap',
+      },
+      tabs: {
+        width: '100%',
+      },
+    };
+    var el =
+      <Tabs  >
+        <Tab label="Notebooks" style={{padding: 20}} value="a" onActive={this.handleActiveA}>
+          <div>This is content</div>
+        </Tab>
+        <Tab label="Topics" style={{padding: 20}} value="b">
+        </Tab>
+      </Tabs>
     return (
       <div>
-        <Main notebook_struct={this.props.notebook_struct}/> 
+        <AppBar title="My notes" style={styles.appBar}>
+          <Tabs title="This is title" style={styles.tabs}>
+            <Tab label="Notebooks" style={{padding: 20}}>
+            </Tab>
+            <Tab label="Topics" style={{padding: 20}}>
+            </Tab>
+          </Tabs>  
+        </AppBar>
       </div>
     );
   }
-});
+}
 
 module.exports = App;
