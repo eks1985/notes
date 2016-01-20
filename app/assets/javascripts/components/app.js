@@ -1,21 +1,22 @@
-import React from 'react';
+// import React from 'react'
+import React, {PropTypes, Component} from 'react';
 import Paper from 'material-ui/lib/paper';
 import AppBar from 'material-ui/lib/app-bar'
 import Tabs from 'material-ui/lib/tabs/tabs';
 import Tab from 'material-ui/lib/tabs/tab';
 import NotebookSelect from './notes2/notebook-select';
 
-import Main from './notes/main';
-
-class App extends React.Components {
+export default class App extends Component {
   
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+  }
   
-  // handleActiveA = () => {
-  //   alert("A");
-  // };
+  _selectTab = (value, e, tab) => {
+    console.log(value);
+    // console.log(e);
+    // console.log(tab);
+  };
   
   render() {
     var styles = {
@@ -26,27 +27,21 @@ class App extends React.Components {
         width: '100%',
       },
     };
-    var el =
-      <Tabs  >
-        <Tab label="Notebooks" style={{padding: 20}} value="a" onActive={this.handleActiveA}>
-          <div>This is content</div>
-        </Tab>
-        <Tab label="Topics" style={{padding: 20}} value="b">
-        </Tab>
-      </Tabs>
+    
     return (
       <div>
         <AppBar title="My notes" style={styles.appBar}>
-          <Tabs title="This is title" style={styles.tabs}>
-            <Tab label="Notebooks" style={{padding: 20}}>
+          <Tabs title="This is title" style={styles.tabs} onChange={this._selectTab}>
+            <Tab label="Notebooks" style={{padding: 20}} value="1">
             </Tab>
-            <Tab label="Topics" style={{padding: 20}}>
+            <Tab label="Topics" style={{padding: 20}} value="2">
             </Tab>
           </Tabs>  
         </AppBar>
+        <NotebookSelect />
       </div>
     );
   }
 }
 
-module.exports = App;
+// module.exports = App;

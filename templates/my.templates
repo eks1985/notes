@@ -1,0 +1,17 @@
+filename .html
+section General
+caption my HTML file
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title> </title>
+        </head>
+        <body>
+
+        </body>
+    </html>
+filename .xml
+section General
+caption my XML file
+    <?xml version="1.0" encoding="UTF-8"?>
+    <root />
