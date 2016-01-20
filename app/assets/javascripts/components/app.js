@@ -9,9 +9,9 @@ import Main from './notes/main';
 
 class App extends React.Components {
   
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   
   // handleActiveA = () => {
   //   alert("A");
